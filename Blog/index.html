@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Blog</title>
+    <link href="./index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header start -->
+    <div id="header" class="section">
+        <img alt="" class="img-circle" src="./pic.jpeg">
+        <p>Vinícius Lopes</p>
+    </div>
+    <!-- header end -->
+    <!-- About Me section start -->
+    <div class="section">
+        <h1><span>Sobre Mim</span></h1>
+        <p>
+            Meu nome é <strong>Vinícius Lopes Lima</strong> e atualmente tenho 22 anos,
+            sou recentemente formado em <strong>Análise e Desenvolvimento de Sistemas</strong>
+            pela Fatec Praia Grande no final de 2019, e atualmente cursando
+            Técnico em Informática na ETEC Adolpho Berezin, localizada em Mongaguá,
+            minha cidade atual, onde finalizei meu primeiro módulo antes das férias
+            de final de ano.
+            Possuo conhecimentos em <strong>HTML, CSS e Javascript,</strong> onde me foi introduzido
+            durante a faculdade na Fatec, além de um pouco de React, onde foi uma
+            linguagem que utilizamos para desenvolver nosso trabalho de conclusão do
+            curso de Análise. Além disso conheci um pouco sobre Angular durante a Fatec,
+            onde pratiquei e pesquisei um pouco por fora, realizando alguns cursos na
+            plataforma da <strong>Alura</strong>, no mesmo período em que realizava a faculdade.
+            Comecei a ver um pouco de <strong>.NET C#</strong> pela ETEC, e achei muito interessante
+            a abordagem da linguagem, fazendo com que pesquisasse por conta própria,
+            realizando pequenos projetos e disponibilizando no meu <strong>GitHub</strong>.
+            Gosto muito de tecnologia e da cultura japonesa, como mangas e animes,
+            além disso conheci o <strong>Linux</strong> durante a faculdade, fazendo com que eu o
+            utilizasse como sistema principal por um tempo, mas deixando um pouco de
+            lado por conflitos com meus gostos, jogos no caso, ainda tem muito o que
+            evoluir. Essa experiência que tive fez com que eu acompanhasse um pouco da
+            comunidade como Hobbie, seguindo alguns canais que falam um pouco sobre,
+            principalmente o Diolinux.
+            <hr>
+            Atualmente sigo estudando sempre que posso, vendo um pouquinho de <strong>Python</strong>
+            e tentando me colocar em situações reais, com projetos e resolução de certos
+            problemas, procuro também uma oportunidade de entrar nessa área grandiosa e
+            montar minha carreira, e complementando com mais uma faculdade, na área de
+            Ciência de Dados, buscando minha liberdade.
+        </p>
+        <p class="quote">"Me daria uma chance?"</p>
+    </div>
+    <!-- About Me section end -->
+    <!-- My Skills section start -->
+    <div class="section">
+        <h1><span>Minhas Habilidades</span></h1>
+        <ul>
+            <li>Linux <br />
+                <progress min="0" max="100" value="70"></progress>
+            </li>
+            <li>Versionamento de código com Git <br />
+                <progress min="0" max="100" value="60"></progress>
+            </li>
+            <li>HTML <br />
+                <progress min="0" max="100" value="60"></progress>
+            </li>
+            <li>CSS <br />
+                <progress min="0" max="100" value="60"></progress>
+            </li>
+            <li>JavaScript <br />
+                <progress min="0" max="100" value="50"></progress>
+            </li>
+            <li>.NET C# <br />
+                <progress min="0" max="100" value="60"></progress>
+            </li>
+            <li>Python <br />
+                <progress min="0" max="100" value="60"></progress>
+            </li>
+            <li>Bancos de Dados MySQL e Oracle <br />
+                <progress min="0" max="100" value="70"></progress>
+            </li>
+        </ul>
+    </div>
+    <!-- My Skills section end -->
+    <!-- My Schedule section start -->
+    <div class="section">
+        <h1><span>Minha Rotina</span></h1>
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+            </tr>
+            <tr>
+                <td>08:00 - 8:30</td>
+                <td class="selected">Aprender</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td></td>
+                <td class="selected">Praticar</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13:00 - 13:30</td>
+                <td></td>
+                <td></td>
+                <td class="selected">Jogar</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>15:45 - 17:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Codificar</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>18:00 - 18:15</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Discutir</td>
+            </tr>
+        </table>
+    </div>
+    <!-- My Schedule section end -->
+    <!-- Form section start -->
+    <div class="section">
+        <h1><span>Entre em contato</span></h1>
+        <svg class="face" height="100" width="100">
+            <circle cx="50" cy="50" r="50" fill="#FDD835" />
+            <circle cx="30" cy="30" r="10" fill="#FFFFFF" />
+            <circle cx="70" cy="30" r="10" fill="#FFFFFF" />
+            <circle cx="30" cy="30" r="5" fill="#000000" />
+            <circle cx="70" cy="30" r="5" fill="#000000" />
+            <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+        </svg>
+
+        <form>
+            <input name="name" placeholder="Nome" type="text" required /><br />
+            <input name="email" placeholder="E-mail" type="email" required /><br />
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+            <input type="submit" value="ENVIAR" class="submit" />
+        </form>
+    </div>
+    <!-- Form section end -->
+</body>
+
+</html>
